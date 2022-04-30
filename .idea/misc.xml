@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/MyKotlinApplication/app/src/main/res/layout/activity_dashbord.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/MyKotlinApplication/app/src/main/res/layout/activity_login_page.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/MyKotlinApplication/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/MyKotlinApplication/app/src/main/res/layout/activity_newuser.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/MyKotlinApplication/app/src/main/res/layout/activity_objbindingpassing.xml" value="0.20416666666666666" />
       </map>
     </option>

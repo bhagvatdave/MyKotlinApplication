@@ -12,12 +12,19 @@
         <activity
             android:name=".objpassing.Objbindingpassing"
             android:exported="true">
+        </activity>
+        <activity android:name=".regestration.Dashbord"
+            android:exported="true"/>
+        <activity android:name=".regestration.LoginPage"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".regestration.newuser"
+            android:exported="true"/>
     </application>
 
 </manifest>

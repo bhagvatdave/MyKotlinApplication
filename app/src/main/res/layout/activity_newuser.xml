@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+    <data>
+        <variable
+            name="newuserobj"
+            type="com.example.mykotlinapplication.regestration.Userdata" />
+    </data>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".regestration.newuser">
+
+    <EditText
+        android:id="@+id/editnewuserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginBottom="302dp"
+        android:ems="10"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/Register1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toStartOf="@+id/editnewuserName"
+        app:layout_constraintTop_toBottomOf="@+id/editnewuserName" />
+
+    <EditText
+        android:id="@+id/editPhone1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/editEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/editEmailAddress" />
+
+    <EditText
+        android:id="@+id/editPassword1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/editPhone1"
+        app:layout_constraintTop_toBottomOf="@+id/editPhone1" />
+
+    <EditText
+        android:id="@+id/editrepitPassword1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Re-enter Password"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/editPassword1"
+        app:layout_constraintTop_toBottomOf="@+id/editPassword1" />
+
+    <Button
+        android:id="@+id/Register1"
+        android:layout_width="206dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#2196F3"
+        android:text="Register"
+        android:layout_marginTop="300dp"
+        app:layout_constraintEnd_toEndOf="@+id/editrepitPassword1"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="@+id/editrepitPassword1"
+        app:layout_constraintTop_toBottomOf="@+id/editnewuserName" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

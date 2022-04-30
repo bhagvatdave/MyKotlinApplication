@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="Loginobj"
+            type="com.example.mykotlinapplication.regestration.Userdata" />
+    </data>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".regestration.LoginPage">
+
+    <EditText
+        android:id="@+id/edituserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="141dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="User Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/edituserName"
+        app:layout_constraintTop_toBottomOf="@+id/edituserName" />
+
+    <Button
+        android:id="@+id/Login1"
+        android:layout_width="210dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="28dp"
+        android:text="Login"
+        android:backgroundTint="#2196F3"
+        app:layout_constraintStart_toStartOf="@+id/editPassword"
+        app:layout_constraintTop_toBottomOf="@+id/editPassword" />
+
+    <TextView
+        android:id="@+id/newuser1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="New User"
+        app:layout_constraintStart_toStartOf="@+id/Login1"
+        app:layout_constraintTop_toBottomOf="@+id/Login1" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
