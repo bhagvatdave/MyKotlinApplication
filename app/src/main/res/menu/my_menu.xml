@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Another Activity"
+        android:id="@+id/AnotherActivity"/>
+    <item android:title="Change Background"
+        android:id="@+id/Colorchange"/>
+    <item android:title="Load Image"
+        android:id="@+id/Loadimage"/>
+    <item android:title="Another Menu"
+        android:id="@+id/AnotherMenu">
+
+        <menu>
+
+            <item android:title="Sub Menu1"
+                android:id="@+id/SubMenu1"/>
+
+            <item android:title="Sub Menu2"
+                android:id="@+id/SubMenu2"/>
+        </menu>
+    </item>
+
+</menu>

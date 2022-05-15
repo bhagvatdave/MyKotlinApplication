@@ -9,13 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyKotlinApplication">
-        <activity
-            android:name=".objpassing.Objbindingpassing"
-            android:exported="true">
-        </activity>
-        <activity android:name=".regestration.Dashbord"
-            android:exported="true"/>
-        <activity android:name=".regestration.LoginPage"
+        <activity android:name=".Dialog.DialogActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,6 +17,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Menu.MenuActivity"
+            android:exported="true"/>
+        <activity android:name=".Widget_Component.Seekbar"
+            android:exported="true"/>
+        <activity android:name=".Widget_Component.STCactivity"
+            android:exported="true"/>
+        <activity android:name=".Widget_Component.WidgetButton"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".objpassing.Objbindingpassing"
+            android:exported="true">
+        </activity>
+        <activity android:name=".regestration.Dashbord"
+            android:exported="true"/>
+        <activity android:name=".regestration.LoginPage"
+            android:exported="true"/>
         <activity android:name=".regestration.newuser"
             android:exported="true"/>
     </application>
